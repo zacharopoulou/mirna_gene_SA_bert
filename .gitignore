@@ -1,0 +1,34 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pkl
+
+# Ignore Conda environment
+env/
+*.yaml
+*.yml
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+logs/
+*.log
+.DS_Store
+backup/
+losses/
+evaluation_results/
+ensemble.xlsx
+models/fine_tuning/Biobert/
+models/fine_tuning/BiomedBERT/
+models/fine_tuning/Scibert/
+models/first_run/Biobert/
+models/first_run/BiomedBERT/
+models/first_run/Scibert/
+examine_sets_similarity.ipynb
+Fix_figures.ipynb
+Estimate_max_length.ipynb
+*.h5
+*.pt
+data/*
