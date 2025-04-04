@@ -4,11 +4,6 @@ __pycache__/
 *.so
 *.pkl
 
-# Ignore Conda environment
-env/
-*.yaml
-*.yml
-
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
