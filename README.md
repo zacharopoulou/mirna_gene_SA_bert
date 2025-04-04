@@ -21,3 +21,10 @@ These models are further refined through fine-tuning to enhance performance and 
    ```bash
    git clone https://github.com/zacharopoulou/mirna_gene_SA_bert.git
    cd mirna_gene_SA_bert
+And activate the virtual environment as described above.
+
+3. Data and Results
+
+   The train, test, and evaluation sets for the sentiment analysis task are located in the data directory.
+
+   The results of the scripts, including the trained models, can be accessed on Zenodo. The models and other files are uploaded there for easy download and usage.
